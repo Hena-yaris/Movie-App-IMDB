@@ -2,6 +2,7 @@
 import './header.css';
 import { Link } from 'react-router-dom';
 import Eva_Logo from "../../images/{no.10003}.png";
+import shkorina from '../../images/hena2.png';
 
 const Header= () => {
 
@@ -23,9 +24,9 @@ const Header= () => {
               <span>Upcoming</span>
             </Link>
           </div>
-          <div className='headerright'>
-            
-
+          <div className="headerright">
+            <img className="yada" src={shkorina} />
+            <span>ENJOY WITH ME</span>
           </div>
         </div>
       </>

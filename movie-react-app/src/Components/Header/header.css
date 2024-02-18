@@ -34,4 +34,16 @@ a > span:hover {
 .user__avatar {
     font-size: 2rem;
 }
+.yada {
+    width: 100px;
+    object-fit: cover;
+    height: 55px;
+    object-fit: cover;
+    padding-right: 10px;
+}
+.headerright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
