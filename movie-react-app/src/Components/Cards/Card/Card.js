@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "./card.css";
 import { Link } from "react-router-dom";
+import MovieTrailer from "../../../pages/movieTrailer/MovieTrailer";
 
 const Card = ({ movie }) => {
   const [isLoading, setIsLoading] = useState(true);

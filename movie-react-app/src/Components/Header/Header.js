@@ -1,7 +1,7 @@
 
 import './header.css';
 import { Link } from 'react-router-dom';
-import Eva_Logo from "../../images/10002.jpg";
+import Eva_Logo from "../../images/{no.10003}.png";
 
 const Header= () => {
 
