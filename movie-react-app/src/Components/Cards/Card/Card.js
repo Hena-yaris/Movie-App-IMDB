@@ -16,7 +16,10 @@ const Card = ({ movie }) => {
     <>
       {isLoading ? (
         <div className="cards">
-          <SkeletonTheme color="#202020" highlightColor="#444">
+          {/* <SkeletonTheme color="#202020" highlightColor="#444">
+            <Skeleton height={300} duration={2} />
+          </SkeletonTheme> */}
+          <SkeletonTheme color="#f2f2f2" highlightColor="#cccccc">
             <Skeleton height={300} duration={2} />
           </SkeletonTheme>
         </div>
